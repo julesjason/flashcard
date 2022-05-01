@@ -3,15 +3,6 @@ module.exports = {
     './public/index.html',
     './src/**/*.{html,js}'],
   theme: {
-    fontWeight: {
-      'extra-light': 100,
-      light: 300,
-      normal: 400,
-      medium: 500,
-      bold: 700,
-      'extra-bold': 800,
-      black: 900,
-    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -29,6 +20,7 @@ module.exports = {
       'grey-light-5':'#C4C6CF',
       'grey-light-6':'#E2E2E2',
       'grey-light-7':'#D4D4D4',
+      'grey-light-8':'#757575',
       'grey-dark-1':'#7E7E82',
       'grey-dark-2':'#373946',
       'grey-dark-3':'#4D5566',
