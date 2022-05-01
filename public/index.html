@@ -4,12 +4,56 @@
     <meta charset="utf-8" />
     <title>FlashCard</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+
     <link rel="stylesheet" href="output.css" />
   </head>
-  <body class="bg-gray-400">
-    <div>
-      <h1 class="text-3xl font-bold underline ">Welcome My friends!</h1>
+  <body class="main">
+    <div class="box-container">
+      <div class="detail-box">
+        <span class="detail-box-title">CCNP Tshoot 2</span>
+        <span class="detail-box-subtitle">Question 1/4</span>
+      </div>
+      <div class="content-box">
+        <p class="content-box-text">Switchport Access VLAN</p>
+      </div>
+      <div class="footer-box">
+        <div class="footer-box-action-left">
+          <button class="customBtn"> 
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+
+            <span class="customBtn--text" >Previous</span>
+          </button>
+          <button class="customBtn customBtn--activated"> 
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <span class="customBtn--text" >Next</span>
+          </button>
+        </div>
+         <div class="footer-box-action-right">
+          <button class="customBtn"> 
+            <i class="fa fa-pencil-square-o " aria-hidden="true"></i>
+
+            <span class="customBtn--text" >Edit</span>
+          </button>
+          <button class="customBtn"> 
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <span class="customBtn--text" >Twitter</span>
+          </button>
+          <button class="customBtn"> 
+            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            <span class="customBtn--text" >More</span>
+          </button>
+        </div>
+      </div>
     </div>
-    <script src=""></script>
   </body>
 </html>
