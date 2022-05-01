@@ -31,6 +31,7 @@
 }
 .detail-box-title{
     @apply text-3xl;
+    @apply text-secondary;
 }
 .detail-box-subtitle{
     @apply text-2xl;
@@ -45,9 +46,10 @@
     @apply md:py-48;
     @apply border;
     @apply rounded-lg;
-    @apply bg-secondary;
+    @apply bg-primary;
     @apply border-grey-light-3;
     @apply text-5xl;
+    @apply text-secondary;
     @apply font-semibold;
     @apply cursor-pointer;
     @apply mb-10;
@@ -85,7 +87,7 @@
 }
 
 .customBtn--activated{
-    @apply text-grey-light-7;
+    @apply text-secondary;
 }
 
 .footer-box-action-left .customBtn{

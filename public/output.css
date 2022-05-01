@@ -471,7 +471,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .main {
   min-height: 100vh;
   --tw-bg-opacity: 1;
-  background-color: rgb(30 30 30 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   font-family: Inter, sans-serif;
   --tw-text-opacity: 1;
   color: rgb(212 212 212 / var(--tw-text-opacity));
@@ -499,6 +499,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .detail-box-title {
   font-size: 1.875rem;
   line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(41 41 41 / var(--tw-text-opacity));
 }
 
 .detail-box-subtitle {
@@ -537,11 +539,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(37 37 38 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-border-opacity: 1;
   border-color: rgb(139 140 149 / var(--tw-border-opacity));
   font-size: 3rem;
   line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgb(41 41 41 / var(--tw-text-opacity));
   font-weight: 600;
   cursor: pointer;
   margin-bottom: 2.5rem;
@@ -595,7 +599,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .customBtn--activated {
   --tw-text-opacity: 1;
-  color: rgb(212 212 212 / var(--tw-text-opacity));
+  color: rgb(41 41 41 / var(--tw-text-opacity));
 }
 
 .footer-box-action-left .customBtn {
